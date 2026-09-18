@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="t d">
+  <title id="t">Projektstand: die sechs Etappen aus dem Aufgabenblatt, Block 2 markiert, danach das Abschlusskolloquium</title>
+  <desc id="d">Horizontaler Zeitstrahl mit sechs nummerierten Etappen und dem Kolloquium am Ende. Block 2 (Interviewhandwerk, Probeinterviews im Raum) ist gelb hervorgehoben. Unter dem Strahl steht, was am Ende von Block 2 vorliegt: Fertiger Leitfaden; die ersten Interviews sind terminiert.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .num { font-size: 26px; font-weight: 700; text-anchor: middle; fill: #ffffff; }
+    .num.akzent { fill: #031121; }
+    .blk { font-size: 20px; font-weight: 700; text-anchor: middle; }
+    .txt { font-size: 15px; fill: #5a6472; text-anchor: middle; }
+    .heute { font-size: 16px; font-weight: 700; text-anchor: middle; }
+    .foot { font-size: 19px; }
+    .quelle { font-size: 15px; fill: #5a6472; }
+    .rail { stroke: #c7cdd4; stroke-width: 4; }
+    .node { fill: #1a2f6e; }
+    .node.akzent { fill: #fcd430; }
+    .node.ende { fill: #ffffff; stroke: #1a2f6e; stroke-width: 3; }
+  </style>
+  <rect width="1200" height="620" fill="#ffffff"/>
+
+  <line class="rail" x1="55" y1="150" x2="1145" y2="150"/>
+
+  <!-- Block 1 -->
+  <circle class="node" cx="85" cy="150" r="30"/>
+  <text class="num" x="85" y="159">1</text>
+  <text class="blk" x="85" y="222">Block 1</text>
+  <text class="txt" x="85" y="250">Kick-off,<tspan x="85" dy="22">Teambildung,</tspan><tspan x="85" dy="22">Problemraum</tspan><tspan x="85" dy="22">kartieren</tspan></text>
+
+  <!-- Block 2, heute -->
+  <text class="heute" x="250" y="98">heute</text>
+  <circle class="node akzent" cx="250" cy="150" r="30"/>
+  <text class="num akzent" x="250" y="159">2</text>
+  <text class="blk" x="250" y="222">Block 2</text>
+  <text class="txt" x="250" y="250">Interviewhandwerk,<tspan x="250" dy="22">Probeinterviews</tspan><tspan x="250" dy="22">im Raum</tspan></text>
+
+  <!-- Block 3 -->
+  <circle class="node" cx="415" cy="150" r="30"/>
+  <text class="num" x="415" y="159">3</text>
+  <text class="blk" x="415" y="222">Block 3</text>
+  <text class="txt" x="415" y="250">Beleg-Runde:<tspan x="415" dy="22">Ihre Zitate an</tspan><tspan x="415" dy="22">der Wand;</tspan><tspan x="415" dy="22">Auswertung;</tspan><tspan x="415" dy="22">KI-Persona gegen</tspan><tspan x="415" dy="22">die eigenen</tspan><tspan x="415" dy="22">Daten prüfen</tspan></text>
+
+  <!-- Block 4 -->
+  <circle class="node" cx="580" cy="150" r="30"/>
+  <text class="num" x="580" y="159">4</text>
+  <text class="blk" x="580" y="222">Block 4</text>
+  <text class="txt" x="580" y="250">Ideenfindung<tspan x="580" dy="22">und Sketching;</tspan><tspan x="580" dy="22">Team-Retro</tspan></text>
+
+  <!-- Block 5 -->
+  <circle class="node" cx="745" cy="150" r="30"/>
+  <text class="num" x="745" y="159">5</text>
+  <text class="blk" x="745" y="222">Block 5</text>
+  <text class="txt" x="745" y="250">Wireframing,<tspan x="745" dy="22">Testvorbereitung</tspan></text>
+
+  <!-- Block 6 -->
+  <circle class="node" cx="910" cy="150" r="30"/>
+  <text class="num" x="910" y="159">6</text>
+  <text class="blk" x="910" y="222">Block 6</text>
+  <text class="txt" x="910" y="250">Usability-Tests,<tspan x="910" dy="22">Befunde</tspan><tspan x="910" dy="22">priorisieren</tspan></text>
+
+  <!-- Kolloquium -->
+  <circle class="node ende" cx="1110" cy="150" r="30"/>
+  <text class="blk" x="1110" y="222">Kolloquium</text>
+  <text class="txt" x="1110" y="250">Doku und Video<tspan x="1110" dy="22">entstehen vorher</tspan><tspan x="1110" dy="22">im Selbststudium</tspan></text>
+
+  <rect x="55" y="480" width="1090" height="58" fill="#ffffff" stroke="#fcd430" stroke-width="3"/>
+  <text class="foot" x="80" y="516"><tspan font-weight="700">Was am Ende von Block 2 vorliegt:</tspan> Fertiger Leitfaden; die ersten Interviews sind terminiert.</text>
+
+  <text class="quelle" x="55" y="590">Wortlaut: Etappentabelle des Aufgabenblatts „Kann ich das noch selbst?"</text>
+</svg>

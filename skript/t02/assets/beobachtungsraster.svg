@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="t d">
+  <title id="t">Beobachtungsraster für den Außenkreis: Frage wörtlich mitschreiben, Fragetyp zuordnen, Wirkung notieren</title>
+  <desc id="d">Drei Kästen mit Pfeilen: erstens die Frage wörtlich mitschreiben, zweitens den Fragetyp zuordnen (Situation, Selbstbild oder suggestiv – Situation ist gelb hervorgehoben), drittens die Wirkung notieren: Was hat die Frage ausgelöst? Darunter: Je Frage eine Zeile, mehr wird nicht protokolliert.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 26px; font-weight: 700; text-anchor: middle; }
+    .b { font-size: 19px; fill: #5a6472; text-anchor: middle; }
+    .chip { font-size: 19px; font-weight: 700; text-anchor: middle; }
+    .foot { font-size: 19px; fill: #5a6472; }
+    .box { fill: #ffffff; stroke: #1a2f6e; stroke-width: 3; }
+    .pfeil { stroke: #1a2f6e; stroke-width: 4; }
+    .chipbox { fill: #ffffff; stroke: #5a6472; stroke-width: 2; }
+    .chipbox.akzent { fill: #fcd430; stroke: #fcd430; }
+  </style>
+  <rect width="1200" height="430" fill="#ffffff"/>
+
+  <!-- Kasten 1: Die Frage -->
+  <rect class="box" x="50" y="80" width="310" height="220"/>
+  <text class="h" x="205" y="140">Die Frage</text>
+  <text class="b" x="205" y="180">wörtlich<tspan x="205" dy="26">mitschreiben</tspan></text>
+
+  <!-- Pfeil 1 -->
+  <line class="pfeil" x1="370" y1="190" x2="425" y2="190"/>
+  <path d="M 425 178 L 445 190 L 425 202 Z" fill="#1a2f6e"/>
+
+  <!-- Kasten 2: Der Fragetyp -->
+  <rect class="box" x="455" y="80" width="310" height="220"/>
+  <text class="h" x="610" y="140">Der Fragetyp</text>
+  <rect class="chipbox akzent" x="490" y="162" width="240" height="36"/>
+  <text class="chip" x="610" y="187">Situation</text>
+  <rect class="chipbox" x="490" y="208" width="240" height="36"/>
+  <text class="chip" x="610" y="233">Selbstbild</text>
+  <rect class="chipbox" x="490" y="254" width="240" height="36"/>
+  <text class="chip" x="610" y="279">suggestiv</text>
+
+  <!-- Pfeil 2 -->
+  <line class="pfeil" x1="775" y1="190" x2="830" y2="190"/>
+  <path d="M 830 178 L 850 190 L 830 202 Z" fill="#1a2f6e"/>
+
+  <!-- Kasten 3: Die Wirkung -->
+  <rect class="box" x="860" y="80" width="310" height="220"/>
+  <text class="h" x="1015" y="140">Die Wirkung</text>
+  <text class="b" x="1015" y="180">Was hat die Frage<tspan x="1015" dy="26">ausgelöst?</tspan></text>
+
+  <text class="foot" x="50" y="380">Je Frage eine Zeile – mehr wird nicht protokolliert.</text>
+</svg>

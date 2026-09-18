@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Stationsplan des Testlabors: acht Teststationen an den Wänden, Laufwege in der Mitte, Wartezone mit Kaffee am Eingang</title>
+  <desc id="d">Grundriss eines Raums. An der oberen und der unteren Wand stehen je vier Teststationen, eine je Team, mit den Rollen Moderation, Beobachtung und Protokoll. Rechts liegt eine Wartezone mit Kaffee und Keksen am Eingang. Gestrichelte Pfeile zeigen die Laufwege der Gäste von der Wartezone zu den Stationen, in drei Wellen zu je zwanzig Minuten.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h  { font-size: 21px; font-weight: 700; }
+    .s  { font-size: 16px; fill: #5a6472; }
+    .l  { font-size: 17px; fill: #5a6472; }
+    .st { fill: #e5effb; stroke: #9aa1aa; stroke-width: 1.5; }
+    .wz { fill: #f5f3ee; stroke: #9aa1aa; stroke-width: 1.5; }
+    .weg { stroke: #5a6472; stroke-width: 2.5; stroke-dasharray: 7 7; fill: none; }
+    .wand { fill: none; stroke: #031121; stroke-width: 3; }
+    .chip { fill: #fcd430; }
+    .chiptext { font-size: 17px; font-weight: 700; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Raum -->
+  <rect class="wand" x="50" y="30" width="850" height="470"/>
+
+  <!-- Teststationen, obere Wand -->
+  <g>
+    <rect class="st" x="90"  y="55" width="165" height="95" rx="6"/>
+    <text class="h" x="105" y="95">Station 1</text>
+    <text class="s" x="105" y="125">Moderation · Beob. · Protokoll</text>
+    <rect class="st" x="295" y="55" width="165" height="95" rx="6"/>
+    <text class="h" x="310" y="95">Station 2</text>
+    <text class="s" x="310" y="125">Moderation · Beob. · Protokoll</text>
+    <rect class="st" x="500" y="55" width="165" height="95" rx="6"/>
+    <text class="h" x="515" y="95">Station 3</text>
+    <text class="s" x="515" y="125">Moderation · Beob. · Protokoll</text>
+    <rect class="st" x="705" y="55" width="165" height="95" rx="6"/>
+    <text class="h" x="720" y="95">Station 4</text>
+    <text class="s" x="720" y="125">Moderation · Beob. · Protokoll</text>
+  </g>
+
+  <!-- Teststationen, untere Wand -->
+  <g>
+    <rect class="st" x="90"  y="380" width="165" height="95" rx="6"/>
+    <text class="h" x="105" y="420">Station 5</text>
+    <text class="s" x="105" y="450">Moderation · Beob. · Protokoll</text>
+    <rect class="st" x="295" y="380" width="165" height="95" rx="6"/>
+    <text class="h" x="310" y="420">Station 6</text>
+    <text class="s" x="310" y="450">Moderation · Beob. · Protokoll</text>
+    <rect class="st" x="500" y="380" width="165" height="95" rx="6"/>
+    <text class="h" x="515" y="420">Station 7</text>
+    <text class="s" x="515" y="450">Moderation · Beob. · Protokoll</text>
+    <rect class="st" x="705" y="380" width="165" height="95" rx="6"/>
+    <text class="h" x="720" y="420">Station 8</text>
+    <text class="s" x="720" y="450">Moderation · Beob. · Protokoll</text>
+  </g>
+
+  <!-- Laufwege der Gäste -->
+  <defs>
+    <marker id="pfeil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6472"/>
+    </marker>
+  </defs>
+  <path class="weg" d="M 920 265 H 160" marker-end="url(#pfeil)"/>
+  <path class="weg" d="M 780 265 V 170" marker-end="url(#pfeil)"/>
+  <path class="weg" d="M 575 265 V 170" marker-end="url(#pfeil)"/>
+  <path class="weg" d="M 370 265 V 170" marker-end="url(#pfeil)"/>
+  <path class="weg" d="M 780 265 V 360" marker-end="url(#pfeil)"/>
+  <path class="weg" d="M 575 265 V 360" marker-end="url(#pfeil)"/>
+  <path class="weg" d="M 370 265 V 360" marker-end="url(#pfeil)"/>
+  <path class="weg" d="M 165 265 V 360" marker-end="url(#pfeil)"/>
+
+  <rect class="chip" x="330" y="240" width="235" height="34" rx="17"/>
+  <text class="chiptext" x="352" y="264">3 Wellen à 20 Minuten</text>
+
+  <!-- Wartezone mit Eingang -->
+  <rect class="wz" x="930" y="30" width="220" height="470" rx="6"/>
+  <text class="h" x="955" y="80">Wartezone</text>
+  <text class="s" x="955" y="110">bewusst gemütlich</text>
+  <g>
+    <rect x="955" y="150" width="34" height="26" rx="5" fill="none" stroke="#031121" stroke-width="2.5"/>
+    <path d="M 989 155 q 14 8 0 16" fill="none" stroke="#031121" stroke-width="2.5"/>
+    <text class="h" x="1005" y="170" style="font-size:18px">Kaffee, Kekse</text>
+  </g>
+  <text class="s" x="955" y="215">Einwilligungsformulare</text>
+  <text class="s" x="955" y="240">liegen hier aus</text>
+  <path class="weg" d="M 1040 470 V 300" marker-end="url(#pfeil)"/>
+  <text class="h" x="990" y="530" style="font-size:18px">Eingang Gäste</text>
+  <line x1="990" y1="500" x2="1090" y2="500" stroke="#ffffff" stroke-width="4"/>
+  <line x1="990" y1="500" x2="1090" y2="500" stroke="#fcd430" stroke-width="4"/>
+
+  <!-- Legende -->
+  <g>
+    <rect class="st" x="60" y="518" width="26" height="18" rx="4"/>
+    <text class="l" x="96" y="533">Teststation, eine je Team</text>
+    <rect class="wz" x="330" y="518" width="26" height="18" rx="4"/>
+    <text class="l" x="366" y="533">Wartezone</text>
+    <line class="weg" x1="510" y1="527" x2="560" y2="527"/>
+    <text class="l" x="572" y="533">Laufweg der Gäste</text>
+  </g>
+</svg>

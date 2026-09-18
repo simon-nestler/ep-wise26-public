@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="t d">
+  <title id="t">Schema der dreispaltigen Persona-Vorlage: Aussage, Beleg aus Interview, Annahme</title>
+  <desc id="d">Tabelle mit drei Spalten. Spalte 1: Aussage der KI-Persona. Spalte 2: Beleg aus Interview mit Nummer und wörtlichem Zitat. Spalte 3: die Markierung Annahme. Drei Beispielzeilen: Zeile 1 und 3 tragen einen Interviewbeleg, Zeile 2 hat keinen Beleg und trägt stattdessen die gelbe Markierung Annahme.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .kopf { font-size: 21px; font-weight: 700; fill: #ffffff; }
+    .zelle { font-size: 19px; }
+    .platz { font-size: 19px; fill: #5a6472; }
+    .chip { font-size: 18px; font-weight: 700; fill: #031121; text-anchor: middle; }
+    .grid { stroke: #c7cdd4; stroke-width: 1.5; fill: none; }
+  </style>
+  <rect width="1200" height="520" fill="#ffffff"/>
+
+  <!-- Kopfzeile -->
+  <rect x="60" y="70" width="1080" height="60" fill="#1a2f6e"/>
+  <text class="kopf" x="84" y="108">Aussage</text>
+  <text class="kopf" x="544" y="108">Beleg aus Interview (Nr., wörtliches Zitat)</text>
+  <text class="kopf" x="964" y="108">„Annahme“</text>
+
+  <!-- Zeilen -->
+  <rect x="60" y="130" width="1080" height="90" fill="#ffffff"/>
+  <rect x="60" y="220" width="1080" height="90" fill="#f4f6f8"/>
+  <rect x="60" y="310" width="1080" height="90" fill="#ffffff"/>
+
+  <text class="zelle" x="84" y="168">Aussage 1 der KI-Persona</text>
+  <text class="platz" x="544" y="168">Interview 2: „…“</text>
+  <text class="platz" x="984" y="168">–</text>
+
+  <text class="zelle" x="84" y="258">Aussage 2 der KI-Persona</text>
+  <text class="platz" x="544" y="258">niemand hat das gesagt</text>
+  <rect x="932" y="236" width="124" height="36" rx="18" fill="#fcd430"/>
+  <text class="chip" x="994" y="260">Annahme</text>
+
+  <text class="zelle" x="84" y="348">Aussage 3 der KI-Persona</text>
+  <text class="platz" x="544" y="348">Interview 5: „…“</text>
+  <text class="platz" x="984" y="348">–</text>
+
+  <!-- Raster -->
+  <path class="grid" d="M60 70 H1140 V400 H60 Z"/>
+  <line class="grid" x1="60" y1="130" x2="1140" y2="130"/>
+  <line class="grid" x1="60" y1="220" x2="1140" y2="220"/>
+  <line class="grid" x1="60" y1="310" x2="1140" y2="310"/>
+  <line class="grid" x1="520" y1="70" x2="520" y2="400"/>
+  <line class="grid" x1="940" y1="70" x2="940" y2="400"/>
+
+  <text class="zelle" x="60" y="460" font-weight="700">Jede Zeile trägt einen Eintrag in Spalte 2 – oder die Markierung in Spalte 3.</text>
+</svg>

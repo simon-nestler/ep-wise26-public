@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="t d">
+  <title id="t">Projektstand: die sechs Etappen des Einführungsprojekts, Block 3 markiert</title>
+  <desc id="d">Zeitstrahl mit sechs Stationen nach der Etappentabelle des Aufgabenblatts. Block 1 Kick-off und Problemraum, Block 2 Interviewhandwerk, Block 3 Beleg-Runde, Auswertung und Persona-Prüfung ist gelb hervorgehoben und als heute markiert, Block 4 Ideenfindung, Block 5 Wireframing, Block 6 Usability-Tests. Darunter das Ergebnis von Block 3: Persona mit Belegspalte. Am Ende der Hinweis auf Dokumentation, Video und Abschlusskolloquium.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .num { font-size: 24px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    .num.heute { fill: #031121; }
+    .blk { font-size: 15px; fill: #5a6472; text-anchor: middle; }
+    .lbl { font-size: 17px; text-anchor: middle; }
+    .lbl.heute { font-weight: 700; }
+    .tag { font-size: 15px; font-weight: 700; text-anchor: middle; }
+    .erg { font-size: 19px; }
+    .erg b { font-weight: 700; }
+    .fuss { font-size: 17px; fill: #5a6472; }
+    .track { stroke: #c7cdd4; stroke-width: 3; }
+  </style>
+  <rect width="1200" height="620" fill="#ffffff"/>
+
+  <line class="track" x1="70" y1="170" x2="1130" y2="170"/>
+
+  <!-- heute-Marke über Block 3 -->
+  <rect x="472" y="84" width="76" height="30" rx="15" fill="#fcd430"/>
+  <text class="tag" x="510" y="105">heute</text>
+  <line x1="510" y1="114" x2="510" y2="136" stroke="#fcd430" stroke-width="3"/>
+
+  <!-- Stationen -->
+  <g>
+    <text class="blk" x="150" y="126">Block 1</text>
+    <circle cx="150" cy="170" r="26" fill="#1a2f6e"/><text class="num" x="150" y="178">1</text>
+    <text class="lbl" x="150" y="232">Kick-off, Teambildung,</text>
+    <text class="lbl" x="150" y="256">Problemraum kartieren</text>
+  </g>
+  <g>
+    <text class="blk" x="330" y="126">Block 2</text>
+    <circle cx="330" cy="170" r="26" fill="#1a2f6e"/><text class="num" x="330" y="178">2</text>
+    <text class="lbl" x="330" y="232">Interviewhandwerk,</text>
+    <text class="lbl" x="330" y="256">Probeinterviews im Raum</text>
+  </g>
+  <g>
+    <text class="blk" x="510" y="126">Block 3</text>
+    <circle cx="510" cy="170" r="30" fill="#fcd430" stroke="#031121" stroke-width="2"/><text class="num heute" x="510" y="178">3</text>
+    <text class="lbl heute" x="510" y="232">Beleg-Runde: Ihre Zitate</text>
+    <text class="lbl heute" x="510" y="256">an der Wand; Auswertung;</text>
+    <text class="lbl heute" x="510" y="280">KI-Persona gegen die</text>
+    <text class="lbl heute" x="510" y="304">eigenen Daten prüfen</text>
+  </g>
+  <g>
+    <text class="blk" x="690" y="126">Block 4</text>
+    <circle cx="690" cy="170" r="26" fill="#1a2f6e"/><text class="num" x="690" y="178">4</text>
+    <text class="lbl" x="690" y="232">Ideenfindung und</text>
+    <text class="lbl" x="690" y="256">Sketching; Team-Retro</text>
+  </g>
+  <g>
+    <text class="blk" x="870" y="126">Block 5</text>
+    <circle cx="870" cy="170" r="26" fill="#1a2f6e"/><text class="num" x="870" y="178">5</text>
+    <text class="lbl" x="870" y="232">Wireframing,</text>
+    <text class="lbl" x="870" y="256">Testvorbereitung</text>
+  </g>
+  <g>
+    <text class="blk" x="1050" y="126">Block 6</text>
+    <circle cx="1050" cy="170" r="26" fill="#1a2f6e"/><text class="num" x="1050" y="178">6</text>
+    <text class="lbl" x="1050" y="232">Usability-Tests,</text>
+    <text class="lbl" x="1050" y="256">Befunde priorisieren</text>
+  </g>
+
+  <!-- Ergebnis von Block 3 -->
+  <rect x="70" y="400" width="1060" height="96" fill="#fcd430" fill-opacity="0.16"/>
+  <rect x="70" y="400" width="8" height="96" fill="#fcd430"/>
+  <text class="erg" x="102" y="440" font-weight="700">Was am Ende von Block 3 vorliegt:</text>
+  <text class="erg" x="102" y="472">Persona mit Belegspalte – jede Aussage trägt eine Quelle oder die Markierung „Annahme“.</text>
+
+  <text class="fuss" x="70" y="560">Nach Block 6: Dokumentation (Print und PDF) und Video – beim Abschlusskolloquium beantwortet jede Person Fragen zum eigenen Anteil.</text>
+</svg>

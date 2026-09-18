@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 620" role="img" aria-labelledby="t d">
+  <title id="t">Projektstand: die sechs Etappen des Einführungsprojekts, Block 5 markiert, am Ende das Abschlusskolloquium</title>
+  <desc id="d">Vertikaler Zeitstrahl mit sieben Stationen. Block 1 bis 4 sind abgeschlossen und dunkelblau gefüllt. Block 5, Wireframing und Testvorbereitung, ist gelb markiert und trägt das Etikett heute; darunter steht das Etappenergebnis: testbarer Prototyp, Testaufgaben, drei Testpersonen gewonnen. Block 6 steht noch aus. Die letzte Station ist das Abschlusskolloquium.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; font-size: 20px; }
+    .done { fill: #1a2f6e; }
+    .donenum { font-size: 20px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    .open { fill: #ffffff; stroke: #c7cdd4; stroke-width: 2; }
+    .opennum { font-size: 20px; font-weight: 700; fill: #5a6472; text-anchor: middle; }
+    .now { fill: #FCD430; stroke: #031121; stroke-width: 2.5; }
+    .nownum { font-size: 20px; font-weight: 700; fill: #031121; text-anchor: middle; }
+    .dim { fill: #5a6472; }
+    .b { font-weight: 700; }
+    .chip { font-size: 16px; font-weight: 700; fill: #031121; letter-spacing: 0.08em; }
+    .sub { font-size: 18px; fill: #5a6472; }
+  </style>
+
+  <line x1="150" y1="60" x2="150" y2="545" stroke="#c7cdd4" stroke-width="3"/>
+
+  <!-- Block 1 -->
+  <circle class="done" cx="150" cy="60" r="22"/>
+  <text class="donenum" x="150" y="67">1</text>
+  <text x="200" y="67">Kick-off, Teambildung, Problemraum kartieren</text>
+
+  <!-- Block 2 -->
+  <circle class="done" cx="150" cy="130" r="22"/>
+  <text class="donenum" x="150" y="137">2</text>
+  <text x="200" y="137">Interviewhandwerk, Probeinterviews im Raum</text>
+
+  <!-- Block 3 -->
+  <circle class="done" cx="150" cy="200" r="22"/>
+  <text class="donenum" x="150" y="207">3</text>
+  <text x="200" y="207">Beleg-Runde: Ihre Zitate an der Wand; Auswertung; KI-Persona gegen die eigenen Daten prüfen</text>
+
+  <!-- Block 4 -->
+  <circle class="done" cx="150" cy="270" r="22"/>
+  <text class="donenum" x="150" y="277">4</text>
+  <text x="200" y="277">Ideenfindung und Sketching; Team-Retro</text>
+
+  <!-- Block 5: heute -->
+  <rect x="105" y="318" width="1110" height="102" rx="12" fill="#ffffff" stroke="#FCD430" stroke-width="3"/>
+  <circle class="now" cx="150" cy="355" r="22"/>
+  <text class="nownum" x="150" y="362">5</text>
+  <text class="b" x="200" y="362">Wireframing, Testvorbereitung</text>
+  <rect x="520" y="338" width="86" height="30" rx="15" fill="#FCD430"/>
+  <text class="chip" x="539" y="359">HEUTE</text>
+  <text class="sub" x="200" y="400">Am Ende liegt vor: Testbarer Prototyp, Testaufgaben, drei Testpersonen gewonnen</text>
+
+  <!-- Block 6 -->
+  <circle class="open" cx="150" cy="475" r="22"/>
+  <text class="opennum" x="150" y="482">6</text>
+  <text class="dim" x="200" y="482">Usability-Tests, Befunde priorisieren</text>
+
+  <!-- Kolloquium -->
+  <rect x="130" y="525" width="40" height="40" rx="6" fill="#031121"/>
+  <text class="donenum" x="150" y="552">K</text>
+  <text x="200" y="545"><tspan class="b">Abschlusskolloquium</tspan><tspan class="dim"> – Doku und Video vorführen; jede Person beantwortet Fragen zum eigenen Anteil</tspan></text>
+</svg>

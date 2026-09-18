@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 620" role="img" aria-labelledby="t d">
+  <title id="t">Schema: Divergieren öffnet den Ideenraum, Konvergieren schließt ihn – getrennt durch die Trennregel „Nie beides gleichzeitig“</title>
+  <desc id="d">Zwei Dreiecke bilden eine Raute. Links öffnet sich der Raum von der ersten Idee aus: Divergieren, bewertungsfreie Zone mit Crazy 8s und Zwölf-Minuten-Entwurf. In der Mitte trennt eine gelb markierte Linie beide Bewegungen: Nie beides gleichzeitig. Rechts schließt sich der Raum: Konvergieren, alle Richtungen laufen durch dieselben Kriterien aus Daten, eine gewinnt mit benanntem Preis. Ergebnis: Gewinner-Richtung plus Abschnitt Verworfene Alternativen.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; font-size: 20px; }
+    .h { font-size: 25px; font-weight: 700; }
+    .mid { text-anchor: middle; }
+    .sub { fill: #5a6472; }
+    .tri { fill: #e5effb; stroke: #c7cdd4; stroke-width: 2; }
+    .chipt { font-size: 18px; font-weight: 700; letter-spacing: 0.04em; text-anchor: middle; }
+  </style>
+
+  <text class="h mid" x="360" y="95">Divergieren – den Raum öffnen</text>
+  <text class="h mid" x="900" y="95">Konvergieren – den Raum schließen</text>
+
+  <!-- öffnendes Dreieck -->
+  <polygon class="tri" points="95,320 620,135 620,505"/>
+  <!-- schließendes Dreieck -->
+  <polygon class="tri" points="640,135 1165,320 640,505"/>
+
+  <!-- Trennregel -->
+  <line x1="630" y1="150" x2="630" y2="540" stroke="#FCD430" stroke-width="6" stroke-dasharray="14 10"/>
+  <rect x="480" y="546" width="300" height="38" rx="19" fill="#FCD430"/>
+  <text class="chipt" x="630" y="571">Nie beides gleichzeitig</text>
+
+  <!-- Inhalt links -->
+  <text class="mid" x="455" y="290">viele Richtungen, auch absurde</text>
+  <text class="mid" x="455" y="330" font-weight="700">bewertungsfreie Zone</text>
+  <text class="mid sub" x="455" y="370">Crazy 8s · Zwölf-Minuten-Entwurf</text>
+
+  <!-- Inhalt rechts -->
+  <text class="mid" x="820" y="290">alle Richtungen durch dieselben Kriterien</text>
+  <text class="mid" x="820" y="330" font-weight="700">Kriterien zeigen auf Daten</text>
+  <text class="mid sub" x="820" y="370">eine gewinnt – mit benanntem Preis</text>
+
+  <!-- Start und Ergebnis -->
+  <circle cx="95" cy="320" r="10" fill="#1a2f6e"/>
+  <text class="sub" x="40" y="270">die erste Idee</text>
+  <circle cx="1165" cy="320" r="10" fill="#1a2f6e"/>
+  <text class="sub" x="1225" y="270" text-anchor="end">Gewinner-Richtung +</text>
+  <text class="sub" x="1225" y="298" text-anchor="end">„Verworfene Alternativen“</text>
+</svg>
