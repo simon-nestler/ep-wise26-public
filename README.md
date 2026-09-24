@@ -12,11 +12,7 @@ Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Or
 - [T04 · Ideenfindung und Entscheidung](skript/t04/)
 - [T05 · Wireframes und Testvorbereitung](skript/t05/)
 - [T06 · Usability-Test und Befunde](skript/t06/)
-
-## Probeklausur
-
-- [probekolloquium](probeklausur/probekolloquium.pdf)
-- [selbstbewertung](probeklausur/selbstbewertung.pdf)
+- [Kolloquium](skript/kolloquium/)
 
 ## Lern-Skills
 
