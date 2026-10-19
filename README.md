@@ -14,6 +14,16 @@ Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Or
 - [T06 · Usability-Test und Befunde](skript/t06/)
 - [Kolloquium](skript/kolloquium/)
 
+## Folien ohne Erklärtext
+
+- [T01 · Projektauftrag, Teams und Hypothesen](skript/t01/folien.html)
+- [T02 · Interviewhandwerk und Leitfaden](skript/t02/folien.html)
+- [T03 · Auswertung und Persona](skript/t03/folien.html)
+- [T04 · Ideenfindung und Entscheidung](skript/t04/folien.html)
+- [T05 · Wireframes und Testvorbereitung](skript/t05/folien.html)
+- [T06 · Usability-Test und Befunde](skript/t06/folien.html)
+- [Kolloquium](skript/kolloquium/folien.html)
+
 ## Lern-Skills
 
 - [Skills für Claude und andere KI-Assistenten](lern-skills/)

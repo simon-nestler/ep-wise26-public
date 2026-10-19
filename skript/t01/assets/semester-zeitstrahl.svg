@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 400" role="img" aria-labelledby="t d">
-  <title id="t">Das Semester: sechs Blocktermine, danach Dokumentation und Video, am Semesterende das Abschlusskolloquium</title>
-  <desc id="d">Zeitstrahl mit sechs Blöcken im Wortlaut der Etappentabelle des Aufgabenblatts. Block 1 Kick-off, Teambildung, Problemraum kartieren, gelb markiert als heutiger Termin; darunter das Etappenergebnis Verantwortungsmatrix des Teams und Rohfassung des Interviewleitfadens. Block 2 Interviewhandwerk, Probeinterviews im Raum. Block 3 Beleg-Runde: Ihre Zitate an der Wand; Auswertung; KI-Persona gegen die eigenen Daten prüfen. Block 4 Ideenfindung und Sketching; Team-Retro. Block 5 Wireframing, Testvorbereitung. Block 6 Usability-Tests, Befunde priorisieren. Danach eine gestrichelte Etappe Doku und Video im Selbststudium, am Ende das Abschlusskolloquium.</desc>
+  <title id="t">Das Semester: sechs Termine, einer davon ein optionaler Besprechungstermin; sechs Blöcke an fünf Blockterminen, danach Dokumentation und Video, am Ende das Abschlusskolloquium</title>
+  <desc id="d">Zeitstrahl mit sechs Blöcken im Wortlaut der Etappentabelle des Aufgabenblatts. Block 1 Kick-off, Teambildung, Problemraum kartieren, gelb markiert als heutiger Termin; darunter das Etappenergebnis Verantwortungsmatrix des Teams und Rohfassung des Interviewleitfadens. Block 2 Interviewhandwerk, Probeinterviews im Raum. Block 3 Beleg-Runde: Ihre Zitate an der Wand; Auswertung; KI-Persona gegen die eigenen Daten prüfen. Block 4 Ideenfindung und Sketching; Team-Retro. Block 5 Wireframing, Testvorbereitung. Block 6 Usability-Tests, Befunde priorisieren. Block 5 und Block 6 sind als gemeinsamer Termin markiert. Danach eine gestrichelte Etappe Doku und Video im Selbststudium, am Ende das Abschlusskolloquium.</desc>
   <style>
     text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
     .b { font-size: 21px; font-weight: 700; }
@@ -67,6 +67,10 @@
   <text class="s" x="900" y="194">Befunde priorisieren</text>
   <line class="tick" x1="970" y1="252" x2="970" y2="290"/>
 
+  <!-- Block 5 + 6: ein Termin -->
+  <rect x="742" y="259" width="284" height="24" fill="#ffffff"/>
+  <text class="s" x="884" y="276" text-anchor="middle">Block 5 und 6: ein gemeinsamer Termin</text>
+
   <!-- Doku + Video (Selbststudium) -->
   <rect x="1074" y="112" width="132" height="140" rx="6" fill="none" stroke="#5a6472" stroke-width="2" stroke-dasharray="6 6"/>
   <text class="b" x="1084" y="144" style="font-size:18px">Doku + Video</text>
@@ -82,5 +86,5 @@
   <line class="tick" x1="1298" y1="252" x2="1298" y2="290"/>
 
   <text class="erg" x="30" y="332">Am Ende von Block 1 liegt vor: Verantwortungsmatrix des Teams, Rohfassung des Interviewleitfadens</text>
-  <text class="cap" x="30" y="362">Sechs Blocktermine à 4 Stunden · danach gehört die Zeit der Dokumentation und dem Video · am Semesterende das Abschlusskolloquium</text>
+  <text class="cap" x="30" y="362">Sechs Termine: fünf Blocktermine und ein optionaler Besprechungstermin · danach gehört die Zeit der Dokumentation und dem Video · dann das Abschlusskolloquium</text>
 </svg>

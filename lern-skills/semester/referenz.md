@@ -4,7 +4,7 @@ Version 1.0 · Stand: August 2026. Anhang zum Kern (SKILL.md); enthält nur, was
 
 ## Das Modul in Kürze
 
-B.Sc. User Experience Design, THI Ingolstadt, 1. Semester, 2 ECTS (50 h: 24 h Kontakt, 26 h Selbststudium). Sechs Blocktermine, danach Dokumentation (Print + PDF) und einfaches Video im 3er-Team, Abschlusskolloquium. Bewertet werden Entscheidungen und ihre Verteidigung; die Doku ist das Protokoll. Jeder KI-Einsatz wird im KI-Anhang deklariert (Werkzeug, Zweck, übernommene Inhalte).
+B.Sc. User Experience Design, THI Ingolstadt, 1. Semester, 2 ECTS (50 h: 24 h Kontakt, 26 h Selbststudium). Sechs Termine, davon einer ein optionaler Besprechungstermin: Die sechs Blöcke laufen an fünf Blockterminen (Block 5 und 6 am selben Termin). Danach Dokumentation (Print + PDF) und einfaches Video im 3er-Team, Abschlusskolloquium. Bewertet werden Entscheidungen und ihre Verteidigung; die Doku ist das Protokoll. Jeder KI-Einsatz wird im KI-Anhang deklariert (Werkzeug, Zweck, übernommene Inhalte).
 
 Projektaufgabe des Jahrgangs WS 2026/27: eine Lösung gestalten, die Studierenden vier Wochen vor einer Prüfung ehrlich zeigt, was sie ohne KI noch selbst können. Versperrte Wege: keine Lern-App von der Stange, keine Lösung, die erzieht.
 
